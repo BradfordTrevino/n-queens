@@ -6,5 +6,8 @@
     "start": "npx live-server"
   },
   "author": "Hack Reactor <curriculum.team@hackreactor.com>",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
 }
