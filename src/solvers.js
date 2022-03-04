@@ -98,3 +98,30 @@ window.countNQueensSolutions = function(n) {
   console.log('Number of solutions for ' + n + ' queens:', solutionCount);
   return solutionCount;
 };
+
+// window.bitwiseQ = function(Q, u, ee, n, s, H, R) {
+
+//   solutionCount = 0;
+//   // s = 0;
+//   Q=u?Q:(1<<Q)-1;
+//   // If Q is equal to u, Q, else (1 zero fill left shift Q) - 1;
+//   H = ~(u|ee|n) & Q;
+//   // LET poss = ~(ld | cols | rd) & all
+//   // H is not equal to (u or ee or n) & Q (0101 | 1100 | 0111)
+//   while(H)
+//   // bitwise operator XOR
+//   H ^= R =- H & H,s += N(Q, (u|R)<<1, ee|R, (n|R)>>1);
+//   //  (ld|bit)<<1, cols|bit, (rd|bit)>>1
+//   // Return solution count
+//   return solutionCount += ee == Q;
+// };
+
+
+// N = function
+// Q = all  a complete solution
+// u = ld Major Diagonal
+// ee = cols Columns
+// n = rd Minor Diagonal
+// s = solutionCount
+// H = current Row
+// R = bit holdes a valid queen placement
